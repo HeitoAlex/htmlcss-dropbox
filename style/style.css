@@ -4,3 +4,47 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* font */
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* bg-color */
+.lightblue{
+    background-color: #B4D0E8;
+}
+
+.black{
+    background-color: #000000;
+}
