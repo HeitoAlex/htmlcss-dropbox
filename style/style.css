@@ -10,6 +10,52 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+#bordeaux{
+    color: #61082B;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+/* list */
+ul{
+    list-style-type: none;
+}
+
+/* header */
+div.navbar>ul{
+    display: flex;
+}
+
+div.navbar>img{
+    margin: 1rem;
+}
+
+li{
+    margin: 1rem;
+}
+
+.head-nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    padding: 1rem;
+}
+
+.jumbotron{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* main */
+.maindiv{
+    max-width: 800px;
+    margin: 0 auto;
+}
 
 
 
@@ -24,14 +70,20 @@ body{
 
 
 
+/* style button */
+button{
+    margin: .7rem;
+    border-radius: 0;
+    padding: 0 1rem;
+}
 
+.blue-button{
+    background-color: #0961FF;
+}
 
-
-
-
-
-
-
+.white-button{
+    background-color: #FFFFFF;
+}
 
 
 
