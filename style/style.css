@@ -53,8 +53,12 @@ li{
 .maindiv{
     max-width: 800px;
     margin: 0 auto;
+    padding: 3rem 0;
 }
 
+h2{
+    margin-bottom: 3rem;
+}
 form{
     margin: 2rem 0;
 }
@@ -65,9 +69,12 @@ form{
 }
 
 article{
-    border: 1px solid grey;
     max-width: 30%;
     height: 100%;
+}
+
+div.plane>article{
+    border: 1px solid grey;
 }
 
 .type{
@@ -111,6 +118,52 @@ div.spec>p.month{
     font-weight: 200;
 }
 
+.team{
+    border: 1px solid;
+    margin: 2rem 0;
+}
+
+.space-division{
+    display:flex;
+    padding: 1rem;
+}
+
+.small{
+    width: 35%;
+}
+
+.partner{
+    display: flex;
+    padding: 3rem 0;
+}
+
+div.partner>img{
+    width: 500px;
+    height: 450px;
+}
+
+div.partner>span{
+    padding: 1.5rem;
+}
+
+span>button{
+    margin-top: 1.5rem;
+}
+
+.function{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.function>article{
+    margin-bottom: 1.5rem;
+}
+
+div.function>article>img{
+    width: 250px;
+    height: 200px;
+}
 
 /* style button */
 button{
@@ -122,12 +175,13 @@ button{
     border: none;
 }
 
-.blue-button{
-    
-}
-
 .white-button{
+    margin-right: 1rem;
+    border-radius: 0;
+    padding: .3rem 1rem;
     background-color: #FFFFFF;
+    color: black;
+    border: 1px solid;
 }
 
 
