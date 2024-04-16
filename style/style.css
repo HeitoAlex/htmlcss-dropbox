@@ -188,6 +188,17 @@ div.join>div>button.white-button{
     display: flex;
     justify-content: space-between;
 }
+
+.footnav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0;
+}
+
+div.footnav li{
+    margin: 0 0 .5rem;
+}
+
 /* style button */
 button{
     margin-right: 1rem;
@@ -207,13 +218,6 @@ button{
     border: 1px solid;
 }
 
-
-
-
-
-
-
-
 /* bg-color */
 .lightblue{
     background-color: #B4D0E8;
@@ -227,5 +231,4 @@ footer{
 .footdiv{
     max-width: 1000px;
     margin: 0 auto;
-
 }
