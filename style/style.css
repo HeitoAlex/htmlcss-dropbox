@@ -45,15 +45,39 @@ li{
 }
 
 .jumbotron{
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
+    position: relative;
+}
+
+h1{
+    font-size: 60px;
+}
+
+div.jumbotron>img{
+    width: 600px;
+    position: absolute;
+    left: 20rem;
+    top: 11rem;
+    height: 350px;
+}
+
+div.jumbotron>p{
+    max-width: 36%;
+    margin: 1rem 0;
+    text-align: start;
+}
+
+div.jumbotron>i{
+    font-size: 40px;
+    margin: 1rem 0;
 }
 
 /* main */
 .maindiv{
     max-width: 800px;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 5rem 0;
 }
 
 h2{
@@ -70,12 +94,12 @@ form{
 }
 
 article{
-    max-width: 30%;
-    height: 100%;
+    width: 32%;
 }
 
 div.plane>article{
     border: 1px solid grey;
+    overflow: auto;
 }
 
 .type{
@@ -166,6 +190,44 @@ div.function>article>img{
     height: 200px;
 }
 
+#pub{
+    display: inline-flex;
+}
+.logo-partner{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.logo-partner>img{
+    width: 50%;
+    filter: invert(100%);
+}
+
+.side{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+    flex-grow: 0;
+    max-height: 400px;
+}
+
+.central{
+    flex-grow: 1;
+    padding: 2rem;
+    text-align: start;
+}
+
+div.central>img{
+    width: 50%;
+}
+
+#author{
+    margin-top: 1rem;
+}
+
 .join{
     display: flex;
     justify-content: space-between;
@@ -187,6 +249,16 @@ div.join>div>button.white-button{
 .question{
     display: flex;
     justify-content: space-between;
+}
+
+footer{
+    background-color: #000000;
+    color: white;
+}
+
+.footdiv{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .footnav{
@@ -223,12 +295,35 @@ button{
     background-color: #B4D0E8;
 }
 
-footer{
-    background-color: #000000;
-    color: white;
+.red{
+    background-color: #D5001F;
 }
 
-.footdiv{
-    max-width: 1000px;
-    margin: 0 auto;
+.shinyred{
+    background-color: #FF1C1C;
+}
+
+.darkred{
+    background-color: #61082B;
+}
+
+.blue{
+    background-color: #0193CE;
+}
+
+.darkblue{
+    background-color: #0D2481;
+}
+
+.yellow{
+    background-color: #FFD830;
+}
+
+.green{
+    background-color: #A2D39B;
+    border: 1rem solid #D1E9CD;
+}
+
+.lightgrey{
+    background-color: #F5F5F5;
 }
