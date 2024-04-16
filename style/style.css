@@ -58,6 +58,7 @@ li{
 
 h2{
     margin-bottom: 3rem;
+    font-size: 40px;
 }
 form{
     margin: 2rem 0;
@@ -146,8 +147,8 @@ div.partner>span{
     padding: 1.5rem;
 }
 
-span>button{
-    margin-top: 1.5rem;
+span>p{
+    margin-bottom: 1.5rem;
 }
 
 .function{
@@ -165,6 +166,20 @@ div.function>article>img{
     height: 200px;
 }
 
+.join{
+    display: flex;
+    justify-content: space-between;
+}
+
+div.join>div{
+    width: 40%;
+}
+
+div.join>div>button.white-button{
+    padding: .5rem;
+    margin-top: 1rem;
+}
+
 /* style button */
 button{
     margin-right: 1rem;
@@ -176,7 +191,7 @@ button{
 }
 
 .white-button{
-    margin-right: 1rem;
+    margin: 0;
     border-radius: 0;
     padding: .3rem 1rem;
     background-color: #FFFFFF;
