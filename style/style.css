@@ -180,6 +180,14 @@ div.join>div>button.white-button{
     margin-top: 1rem;
 }
 
+.ask{
+    width: 100%;
+}
+
+.question{
+    display: flex;
+    justify-content: space-between;
+}
 /* style button */
 button{
     margin-right: 1rem;
@@ -219,4 +227,5 @@ footer{
 .footdiv{
     max-width: 1000px;
     margin: 0 auto;
+
 }
