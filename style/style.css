@@ -136,19 +136,7 @@ div.spec>ul{
     height: 250px;
 }
 
-.user{
-    display: flex;
-    margin: 1rem 0;
-    align-items: baseline;
-}
-
-.folder{
-    display: flex;
-    margin: 1rem 0;
-    align-items: baseline;
-}
-
-.share{
+.offer{
     display: flex;
     margin: 1rem 0;
     align-items: baseline;
