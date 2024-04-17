@@ -217,7 +217,7 @@ div.function>article>img{
 }
 
 #pub{
-    display: inline-flex;
+    display: flex;
 }
 
 .logo-partner{
