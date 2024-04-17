@@ -48,6 +48,7 @@ li{
     max-width: 900px;
     margin: 0 auto;
     position: relative;
+    padding-top: 2rem;
 }
 
 h1{
@@ -58,7 +59,7 @@ div.jumbotron>img{
     width: 600px;
     position: absolute;
     left: 20rem;
-    top: 11rem;
+    top: 13rem;
     height: 350px;
 }
 
@@ -74,7 +75,7 @@ div.jumbotron>i{
 }
 
 /* main */
-.maindiv{
+.container{
     max-width: 800px;
     margin: 0 auto;
     padding: 5rem 0;
@@ -84,8 +85,13 @@ h2{
     margin-bottom: 3rem;
     font-size: 40px;
 }
+
 form{
     margin: 2rem 0;
+}
+
+label{
+    margin-right: 2rem;
 }
 
 .plane{
@@ -94,7 +100,7 @@ form{
 }
 
 article{
-    width: 32%;
+    width: 31%;
 }
 
 div.plane>article{
@@ -110,6 +116,8 @@ div.plane>article{
 
 .spec{
     padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 h3{
@@ -124,6 +132,36 @@ div.spec>p{
     margin-bottom: 1rem;
 }
 
+div.spec>ul{
+    height: 250px;
+}
+
+.user{
+    display: flex;
+    margin: 1rem 0;
+    align-items: baseline;
+}
+
+.folder{
+    display: flex;
+    margin: 1rem 0;
+    align-items: baseline;
+}
+
+.share{
+    display: flex;
+    margin: 1rem 0;
+    align-items: baseline;
+}
+
+.check{
+    display: flex;
+    align-items: baseline;
+}
+
+.check>i{
+    color: #0961FF;
+}
 div.spec>button{
     margin: 1.5rem 0;
 }
@@ -193,6 +231,7 @@ div.function>article>img{
 #pub{
     display: inline-flex;
 }
+
 .logo-partner{
     width: 200px;
     height: 200px;
@@ -251,6 +290,7 @@ div.join>div>button.white-button{
     justify-content: space-between;
 }
 
+/* footer */
 footer{
     background-color: #000000;
     color: white;
@@ -291,7 +331,7 @@ button{
 }
 
 /* bg-color */
-.lightblue{
+.light-blue{
     background-color: #B4D0E8;
 }
 
@@ -299,11 +339,11 @@ button{
     background-color: #D5001F;
 }
 
-.shinyred{
+.shiny-red{
     background-color: #FF1C1C;
 }
 
-.darkred{
+.dark-red{
     background-color: #61082B;
 }
 
@@ -311,7 +351,7 @@ button{
     background-color: #0193CE;
 }
 
-.darkblue{
+.dark-blue{
     background-color: #0D2481;
 }
 
@@ -324,6 +364,6 @@ button{
     border: 1rem solid #D1E9CD;
 }
 
-.lightgrey{
+.light-grey{
     background-color: #F5F5F5;
 }
