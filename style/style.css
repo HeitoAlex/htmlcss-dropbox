@@ -221,8 +221,8 @@ div.function>article>img{
 }
 
 .logo-partner{
-    width: 200px;
-    height: 200px;
+    width: 50%;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,18 +233,11 @@ div.logo-partner>img{
     filter: invert(100%);
 }
 
-.side{
+.square{
     display: flex;
     flex-wrap: wrap;
-    min-width: 400px;
-    flex-grow: 0;
-    max-height: 400px;
-}
-
-.central{
-    flex-grow: 1;
-    padding: 2rem;
-    text-align: start;
+    width: calc(100vw / 3);
+    height: calc(100vw / 3);
 }
 
 div.central>img{
@@ -354,4 +347,6 @@ button{
 
 .light-grey{
     background-color: #F5F5F5;
+    padding: 2rem;
+    display: block;
 }
